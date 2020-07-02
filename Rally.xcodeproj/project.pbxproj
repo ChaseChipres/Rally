@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1ACF86F724AE8AC900D0EFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF86F624AE8AC900D0EFCF /* AppDelegate.swift */; };
 		1ACF86F924AE8AC900D0EFCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF86F824AE8AC900D0EFCF /* SceneDelegate.swift */; };
-		1ACF86FB24AE8AC900D0EFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF86FA24AE8AC900D0EFCF /* ViewController.swift */; };
 		1ACF86FE24AE8AC900D0EFCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACF86FC24AE8AC900D0EFCF /* Main.storyboard */; };
 		1ACF870024AE8ACA00D0EFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACF86FF24AE8ACA00D0EFCF /* Assets.xcassets */; };
 		1ACF870324AE8ACA00D0EFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACF870124AE8ACA00D0EFCF /* LaunchScreen.storyboard */; };
+		1ACF870D24AE8C3000D0EFCF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF870C24AE8C3000D0EFCF /* SignInViewController.swift */; };
+		1ACF870F24AE8C4000D0EFCF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF870E24AE8C4000D0EFCF /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ACF86F324AE8AC900D0EFCF /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACF86F624AE8AC900D0EFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ACF86F824AE8AC900D0EFCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1ACF86FA24AE8AC900D0EFCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1ACF86FD24AE8AC900D0EFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ACF86FF24AE8ACA00D0EFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ACF870224AE8ACA00D0EFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ACF870424AE8ACA00D0EFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACF870C24AE8C3000D0EFCF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1ACF870E24AE8C4000D0EFCF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				1ACF86F624AE8AC900D0EFCF /* AppDelegate.swift */,
 				1ACF86F824AE8AC900D0EFCF /* SceneDelegate.swift */,
-				1ACF86FA24AE8AC900D0EFCF /* ViewController.swift */,
 				1ACF86FC24AE8AC900D0EFCF /* Main.storyboard */,
 				1ACF86FF24AE8ACA00D0EFCF /* Assets.xcassets */,
 				1ACF870124AE8ACA00D0EFCF /* LaunchScreen.storyboard */,
 				1ACF870424AE8ACA00D0EFCF /* Info.plist */,
+				1ACF870C24AE8C3000D0EFCF /* SignInViewController.swift */,
+				1ACF870E24AE8C4000D0EFCF /* SignUpViewController.swift */,
 			);
 			path = Rally;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACF86FB24AE8AC900D0EFCF /* ViewController.swift in Sources */,
 				1ACF86F724AE8AC900D0EFCF /* AppDelegate.swift in Sources */,
 				1ACF86F924AE8AC900D0EFCF /* SceneDelegate.swift in Sources */,
+				1ACF870F24AE8C4000D0EFCF /* SignUpViewController.swift in Sources */,
+				1ACF870D24AE8C3000D0EFCF /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
